@@ -52,6 +52,9 @@
     "dist/**",
     "!dist/test/**"
   ],
+  "dependencies": {
+    "@azure-tools/typespec-azure-telemetry": "workspace:~"
+  },
   "peerDependencies": {
     "@typespec/compiler": "workspace:~",
     "@typespec/http": "workspace:~",
